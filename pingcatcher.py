@@ -3,6 +3,7 @@ import sys
 from argparse import ArgumentParser
 from struct import unpack
 
+# provide arguments to the tool
 parser = ArgumentParser(description="A Command Line based tool which help to detect ping request and reply")
 parser.add_argument("--analyse", "-a", help="Analysing mode [ This will analyse the "
                                             "ethernet-frame and then capture the the icmp packets"
@@ -57,7 +58,7 @@ def ipv6_packet(ipv6_data):
 
     return version_class_flow_label, payload_len, next_header, hop_limit, src_ipv6, dst_ipv6
 
-
+# print info about ethernet frame
 def ethernet_frame_info(eth):
 
     print("\033[1;31m++++++++++++++++++++++++++++++++++++++++++\033[1;m")
@@ -67,6 +68,7 @@ def ethernet_frame_info(eth):
     print("Ethernet protocol {}".format(eth[2]))
 
 
+# print info about ipv4 packet info
 def ipv4_packet_info(ipv4_info):
 
     print("\033[1;35m*******************************************\033[1;m")
@@ -80,6 +82,7 @@ def ipv4_packet_info(ipv4_info):
     print("\n")
 
 
+# print info about ipv6 packet info
 def ipv6_packet_info(ipv6_info):
 
     print("\033[1;35m*******************************************\033[1;m")
