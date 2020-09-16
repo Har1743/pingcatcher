@@ -17,7 +17,7 @@ It firstly creates a raw socket which recieves ethernet frame and **unpacks** th
 
 ## Usage
 
-git clone 
+git clone https://github.com/Har1743/pingcatcher.git
 
 
 
