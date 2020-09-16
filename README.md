@@ -17,8 +17,16 @@ It firstly creates a raw socket which recieves ethernet frame and **unpacks** th
 
 ## Usage
 
-git clone https://github.com/Har1743/pingcatcher.git
+* cloning the tool
+  * git clone https://github.com/Har1743/pingcatcher.git
 
+* execute
+  * python3 pingcatcher
+  * python3 pingcatcher -a
+  
+Now you can capture all the **ICMP** packet which are coming on to your network  
+
+## Screenshot
 
 
   
