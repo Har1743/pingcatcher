@@ -29,8 +29,24 @@ Now you can capture all the **ICMP** packet which are coming on to your network
 ## Screenshot
 
 **Working without argument**
+  
+![](https://github.com/Har1743/pingcatcher/blob/master/ping/ping.png)
 
 **Working with argument**
+  
+![](https://github.com/Har1743/pingcatcher/blob/master/ping/a-1.png)
+  
+![](https://github.com/Har1743/pingcatcher/blob/master/ping/a-2.png)
+  
+## Problem with localhost
+
+As there is a problem while working with local host as it is recieving two requests and responses on one, I don't know why it might me some issue.
+
+## Created by 
+
+github : [Har1743](https://github.com/Har1743)
+
+
 
 
 
