@@ -13,7 +13,11 @@ It firstly creates a raw socket which recieves ethernet frame and **unpacks** th
 
 ## Arguments used
 
-`-a` or `--analyse` : 
+`-a` or `--analyse` : This will analyse the ethernet-frame and then capture the the icmp packets 
+
+## Usage
+
+git clone 
 
 
 
